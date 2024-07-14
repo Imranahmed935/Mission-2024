@@ -59,7 +59,6 @@ span {
   margin: 0 auto;
   height: 500px;
   margin-top: 40px;
-  border: 2px solid red;
 }
 .title {
   font-size: 2.5rem;
@@ -67,7 +66,7 @@ span {
 }
 .mission-cards {
   display: flex;
-  gap: 50px;
+  gap: 20px;
   padding: 10px;
   margin-top: 20px;
 }
@@ -75,7 +74,20 @@ span {
   width: 370px;
   height: 300px;
   border-radius: 10px;
-  border: 2px solid green;
+  padding: 10px;
+  border-radius: 26px;
+  background: rgba(79, 157, 166, 0.1);
+}
+.card-color {
+  background: rgba(255, 89, 89, 0.1);
+}
+.card-color-2 {
+  background: rgb(255, 244, 214);
+}
+.card img {
+  width: 126px;
+  height: 126px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 576px) {
@@ -93,4 +105,14 @@ span {
   .btn {
     margin-bottom: 50px;
   }
+  .mission-cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+  .main {
+    margin-top: 200px;
+  }
+ 
 }
