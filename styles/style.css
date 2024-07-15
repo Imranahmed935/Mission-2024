@@ -130,6 +130,101 @@ span {
   font-size: 1.3rem;
   margin-bottom: 20px;
 }
+.community-section {
+  max-width: 1128px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 500px;
+  margin-top: 30px;
+  padding: 20px;
+}
+.community-details {
+  width: 60%;
+  height: 100%;
+  padding: 20px;
+}
+.community-details h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+.community-details p {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+.community-img {
+  width: 40%;
+  height: 100%;
+}
+.community-img img {
+  width: 100%;
+}
+.shape-2 {
+  width: 227px;
+  height: 227px;
+  position: absolute;
+  left: 1350px;
+  top: 2040px;
+  z-index: -1;
+}
+.application-area {
+  max-width: 1128px;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+  gap: 20px;
+  position: relative;
+}
+.title-2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 50px;
+}
+.application-img {
+  width: 40%;
+}
+.application-img img {
+  width: 100%;
+}
+.application-details {
+  width: 60%;
+  padding: 20px;
+}
+.application-details h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.application-details p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+.shape-3 img {
+  width: 147px;
+  height: 147px;
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  z-index: -1;
+}
+.shape-4 img {
+  width: 77px;
+  height: 77px;
+  position: relative;
+  top: -100px;
+  z-index: -1;
+}
+.shape-5 img {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 350px;
+  top: 600px;
+  z-index: -1;
+}
 
 @media screen and (max-width: 576px) {
   .banner-section {
@@ -163,5 +258,45 @@ span {
   }
   .img-section {
     width: 100%;
+  }
+  .community-section {
+    flex-direction: column-reverse;
+    margin-top: 300px;
+  }
+  .community-details {
+    width: 100%;
+  }
+  .community-img {
+    margin-top: 500px;
+    width: 100%;
+  }
+  .btn {
+    padding: 10px 50px;
+    font-size: 1.1rem;
+  }
+  .application-area{
+    margin-top: 100px;
+    flex-direction: column;
+  }
+  .application-img{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .application-details{
+    width: 100%;
+  }
+  .title-2{
+    margin-top: 400px;
+    font-size: 2rem;
+  }
+  .shape-5 img{
+    left: 315px;
+    top: 500px;
+  }
+  .shape-3 img{
+    width: 110px;
+    height:110px;
+    top: 30px;
+    left: 20px;
   }
 }
